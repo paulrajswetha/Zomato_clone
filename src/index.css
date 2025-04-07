@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+.bg{
+    background-image: url("https://ik.imagekit.io/npursfgai/Zomato/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    height: 400px;
+    background-size: cover;
+}
+
+.un:hover{
+    color: bisque;
+    text-decoration:solid;
+    cursor:pointer;
+}
+
+.container:hover{
+    color:black;
+    cursor:pointer;
+    box-shadow: 0 0 10px rgb(39, 1, 14);
+    transform:scale(1.1);
+}
+.bg1{
+    border-color: black;
+    border-width: thin;
+}
+
+.bg1:hover{
+    box-shadow:brown;
+    cursor:pointer;
+}
+
+.bg3{
+    color: black;
+    border-color: black;
+    border-width:initial;
+}
+.bg4{
+    background-image: url("https://ik.imagekit.io/npursfgai/Zomato/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    height: 100%;
+    background-size: cover;
+}
+
